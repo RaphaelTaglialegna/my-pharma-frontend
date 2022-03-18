@@ -21,7 +21,7 @@ function Login () {
   
   async function loginUser (userData) { 
     
-    await fetch(`http://localhost:3000/user/auth/login`, {
+    await fetch(`https://my-pharma-backend.herokuapp.com/user/auth/login`, {
         method: 'POST',
         headers: {
           Accept: 'application/json',

@@ -13,7 +13,7 @@ function CreateUser () {
   })
     
   async function createUser (userData) { 
-    await fetch(`http://localhost:3000/user/auth/register`, {
+    await fetch(`https://my-pharma-backend.herokuapp.com/user/auth/register`, {
         method: 'POST',
         headers: {
           Accept: 'application/json',
